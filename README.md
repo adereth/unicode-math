@@ -31,7 +31,7 @@ A Clojure library designed to let you painfully write easily readable math.
 Add the following to your project.clj:
 
 ```clojure
-[unicode-math "0.1.0"]
+[unicode-math "0.2.0"]
 ```
 
 The full list of implemented symbols is in [src/unicode_math/core.clj](https://github.com/adereth/unicode-math/blob/master/src/unicode_math/core.clj).
