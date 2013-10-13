@@ -54,6 +54,12 @@
 (defmacro ∨ [& xs] `(or ~@xs))
 (defmacro ⊽ [& xs] `(¬ (∨ ~@xs)))
 (defmacro ⊼ [& xs] `(¬ (∧ ~@xs)))
+(defmacro ∀ [binding & exprs]
+  `(every? identity (for ~binding ~@exprs)))
+(defmacro ∃ [binding & exprs]
+  `(if (some identity (for ~binding ~@exprs)) true false))()
+(defmacro ∄ [binding & exprs]
+  `(if (some identity (for ~binding ~@exprs)) false true))
 
 (def ∩ set/intersection)
 (def ∪ set/union)
