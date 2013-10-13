@@ -13,9 +13,9 @@ A Clojure library designed to let you painfully write easily readable math.
 ```
 [de Morgan's Laws](http://mathworld.wolfram.com/deMorgansLaws.html):
 ```clojure
-(doseq [p [true false] q [true false]]
-  (assert (= (¬ (∧ p q))
-             (∨ (¬ p) (¬ q)))))
+(assert (∀ [p [true false] q [true false]]
+             (= (¬ (∧ p q))
+                (∨ (¬ p) (¬ q)))))
 ```
 
 [Inclusion-Exclusion Principle](http://mathworld.wolfram.com/Inclusion-ExclusionPrinciple.html):
