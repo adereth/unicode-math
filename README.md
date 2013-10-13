@@ -34,6 +34,8 @@ Add the following to your project.clj:
 [unicode-math "0.1.0"]
 ```
 
+The full list of implemented symbols is in [src/unicode_math/core.clj](https://github.com/adereth/unicode-math/blob/master/src/unicode_math/core.clj).
+
 ## Unicode in your editor
 
 ### Emacs
