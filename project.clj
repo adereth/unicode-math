@@ -1,4 +1,4 @@
-(defproject unicode-math "0.1.0-SNAPSHOT"
+(defproject unicode-math "0.2.0"
   :description "A Clojure library designed to let you painfully write easily readable math."
   :url "https://github.com/Adereth/unicode-math"
   :license {:name "Eclipse Public License"
