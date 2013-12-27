@@ -48,7 +48,7 @@ Emacs has simple Unicode support out of the box.  I recommend reading Xah Lee's 
 
 ### Vim
 
-Vim users can use the [digraph](http://vimdoc.sourceforge.net/htmldoc/digraph.html) functionality to quickly insert most of the Unicode characters used in unicode-math.  For the characters that don't have digraphs, [CTRL-V](http://vimdoc.sourceforge.net/htmldoc/insert.html#i_CTRL-V) can be used.
+Vim users can use the [digraph](http://vimdoc.sourceforge.net/htmldoc/digraph.html) functionality to quickly insert most of the Unicode characters used in unicode-math. Many of the digraphs for [math symbols](http://www.alecjacobson.com/weblog/?p=443) will serve you well when using unicode-math. For the characters that don't have digraphs, [CTRL-V](http://vimdoc.sourceforge.net/htmldoc/insert.html#i_CTRL-V) can be used.
 
 ## Disclaimer
 
