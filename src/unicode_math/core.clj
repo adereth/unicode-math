@@ -17,9 +17,18 @@
 (def ⅝ 5/8)
 (def ⅞ 7/8)
 
+(def ⌈ #(Math/ceil %))
+(def ⌊ #(Math/floor %))
+(def | #(Math/abs %))
+ 
 (def ≤ <=)
 (def ≥ >=)
 (def ≠ not=)
+(defn ≈ 
+  ([x y ε]
+    (≤ (| (- x y)) ε))
+  ([x y]
+    (≈ x y 1e-9)))
 
 ;; Please don't use these
 (def − -)
@@ -35,8 +44,6 @@
 (def ∛ #(ⁿ % ⅓))
 (def ∜ #(ⁿ % ¼))
 
-(def ⌈ #(Math/ceil %))
-(def ⌊ #(Math/floor %))
 
 (def π Math/PI)
 (def φ (/ (+ 1 (√ 5)) 2))
