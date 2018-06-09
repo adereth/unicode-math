@@ -1,5 +1,5 @@
 (ns unicode-math.core
-  (require [clojure.set :as set]))
+  (:require [clojure.set :as set]))
 
 (def ½ 1/2)
 (def ¼ 1/4)
